@@ -15,7 +15,20 @@
 <body onload="olamundo()">
     <div class="fundo">
     <form class="container">
-        <h1>Cálculo gasolina percorrida</h1>
+ 
+ <h3 class="carro">Escolha a marca do seu veículo, e calcule o consumo de gasolina</h3>
+    
+    <select class="marca" id="marca">
+    <option>Ford</option>
+    <option>Fiat</option>
+    <option>Chevrolet</option>
+    <option>Hyundai</option>
+    <option>VW</option>
+    <option>Renault></option>
+    <option>Outras Marcas</option>
+    </select>
+    
+    <input type="text" placeholder="Digite o modelo" id="modelo">
 	<input type="number" placeholder="Insira a kmm percorrida" id="km">
     <input type="number" placeholder="Insira o consumo de gasolina" id="gas">
     <button>
@@ -23,8 +36,11 @@
     </button>
     <br>
     <div class= "linha">
+      
     <span id="consumo"></span>
-    <h1>KM/L</h1>
+           <span>
+    <h3 style="font-family= Arial">KM/L</h3>
+           </span>
     </div>
     </form>
 </div>
