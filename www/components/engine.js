@@ -3,13 +3,12 @@
    //}
    
    function calcularconsumo(){
-    var km, gas, consumo;
-   
-    km = document.getElementById ('km').value;
-    gas = document.getElementById('gas').value;
-   
-   
-    document.getElementById("consumo").innerHTML = km / gas;
-   
-   
-   }
+ 
+ var km = document.getElementById ('km').value;
+ var gas = document.getElementById('gas').value;
+ var marca = document.getElementById('marca').value;
+ var modelo = document.getElementById('modelo').value;
+
+ document.getElementById("consumo").innerHTML = "Seu " + marca + " " + modelo + " fez " + km / gas + "KM/L" ;
+
+}
