@@ -34,13 +34,15 @@
     <button>
     <input type="button" value="CALCULAR" onclick="calcularconsumo()">
     </button>
-    <br>
+    <span id="resultado"></span>
     <div class= "linha">
-      
-    <span id="consumo"></span>
-           <span>
-    <h3 style="font-family= Arial">KM/L</h3>
-           </span>
+    <br>
+           <div class="table">
+                <p id="paragraph1">Consumo maior que 20km/l - Extremamente econômico</p>
+                <p id="paragraph2">Consumo maior que 12km/l porém menor que 20km/l - Econômico</p>
+                <p id="paragraph3">Consumo maior que 8km/l porém menor que 12km/l - Normal</p>
+                <p id="paragraph4">Consumo menor que 8km/l - Alto Consumo</p>
+            </div>
     </div>
     </form>
 </div>
